@@ -1,0 +1,573 @@
+header{
+    background-color: #0C2B4B;
+    display: flex;
+    justify-content: space-between;
+    height: 5vh;
+}
+
+header p{
+    color: white;
+}
+
+.time-adress-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5vh;
+    /* background-color: red; */
+    gap: 20px;
+    padding-left: 15px;
+}
+
+.time-adress-container i{
+    display: flex;
+    align-items: center;
+    padding-right: 5px;
+    justify-content: center;
+}
+
+.time-adress-container p{
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+}
+.address{
+    height: 100%;
+    padding: 0.5vh;
+}
+
+.location-dot{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.time-conteiner{
+    display: flex;
+    /* background-color: rebeccapurple; */
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    height: 100%;
+}
+
+.phone-conteiner{
+    display: flex;
+    /* background-color: rgb(141, 141, 36); */
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    height: 100%;
+}
+.phone-conteiner p{
+    padding-top: 2vh;
+}
+.right-container{
+  display: flex;
+}
+
+.social-media-icons{
+    display: flex;
+    justify-content: space-around;
+    /* background-color: gray; */
+    height: 100%;
+    width: 15vw;
+    gap: 10px;
+    padding: 1.2vh;
+}
+
+/* Define o estilo da barra de navegação, incluindo disposição flexível, espaçamento e sombra */
+.navbar {
+    display: flex;
+    justify-content: flex-end; /* Alinha os itens à direita */
+    align-items: center;
+    background: white;
+    padding: 15px 40px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.nav-container {
+    display: flex;
+    align-items: center;
+}
+.nav-links {
+    display: flex;
+    list-style: none;
+    margin-right: 20px;
+}
+.nav-links li {
+    margin: 0 15px;
+}
+.nav-links a {
+    text-decoration: none;
+    color: #1a1a1a;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+.nav-links a:hover, .nav-links .active {
+    color: #f5b400;
+}
+.dropdown {
+    position: relative;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    top: 100%;
+    left: 0;
+    min-width: 120px;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.cta-button {
+    background: #f5b400;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+.cta-button:hover {
+    background: #d89c00;
+}
+
+#menu{
+    display: flex;
+    gap: 10px;
+    background-color: orangered;
+    width: 100%;
+    justify-content: right;
+    padding-right: 20px;
+}
+
+#menu a{
+    text-decoration: none;
+    color: #143251;
+}
+i{
+    color: #F3BD00;
+}
+
+.get-started{
+    display: flex;
+    align-items: center;
+}
+.get-started a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F3BD00;
+    color: white;
+    gap: 2;
+    width: 6vw;
+    height: 8vh;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Suaviza a mudança de cor */
+}
+
+.get-started p{
+    color: white;
+}
+
+.drivin-conteiner{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 20vw;
+    align-items: center;
+    gap: 8px;
+    padding-left: 30px;
+} 
+
+.drivin-conteiner i{
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+} 
+
+.drivin-conteiner p{
+    color: #0C2B4B;
+    font-size: 30px;
+    font-weight: bold;
+} 
+
+
+.nav-conteiner{
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+
+h1{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    color: white;
+    font-size: 4rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+    /* background-color: red; */
+}
+
+.button-conteiner{
+    display: flex;
+    position: absolute;
+    top: 70%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    font-size: 2rem;
+    font-weight: normal;
+    gap: 20px;
+    /* background-color: blue; */
+}
+
+.yellow-button{
+    color: white;
+    background-color: #F3BD00;
+    border: none;
+    padding: 8px 30px;
+    font-size: 20px;
+    width: 12vw;
+    height: 8vh;
+    align-items: center;
+}
+
+.normal-button{
+    color: black;
+    background-color: #ffffff;
+    border: none;
+    padding: 8px 30px;
+    font-size: 20px;
+    width: 12vw;
+    height: 8vh;
+    align-items: center;
+}
+
+h2{
+    color: #F4C218; 
+}
+
+h3{
+    color: #143251;
+}
+
+.four-checks-conteiner{
+    display: flex;
+    width: 700px;
+    gap: 20px;
+}
+
+.two-checks1{
+    display: flex;
+    /* background-color: red; */
+    flex-direction: column;
+    gap: 10px;
+    text-align: justify;
+}
+
+.two-checks1 i{
+    font-size: 28px;
+}
+
+.two-checks2 i{
+    font-size: 28px;
+}
+
+.two-checks1 h4{
+    color: #143251;
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 12px;
+}
+
+.two-checks2 h4{
+    color: #143251;
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 12px;
+}
+
+.check-icon{
+    display: flex;
+    align-items: center;
+    /* background-color: gold; */
+    gap: 5px;
+    margin-left: 15px;
+}
+.two-checks2{
+    display: flex;
+    /* background-color: rgb(0, 81, 255); */
+    flex-direction: column;
+    gap: 10px;
+    text-align: justify;
+}
+
+
+
+.picture{
+    /* background-color: goldenrod; */
+    display: flex;
+    align-items: center;
+    width: 450px;
+}
+
+
+.picture img{
+    width: 450px;
+    height: 300px;
+    border-radius: 12px;
+}
+
+.meet-the-team{
+    padding-top: 15px;
+    padding-bottom: 80px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.section-conteiner{
+    display: flex;
+    gap: 40px;
+    /* background-color: rgb(211, 228, 60); */
+    padding: 90px;
+}
+
+.section-conteiner h3{
+    font-size: 44px;
+    font-weight: bold;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.trainers{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.trainers-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f1f3f5;
+}
+
+.trainers-box h4{
+    color: #0C2B4B;
+    font-size: 15px;
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+.trainers-box h5{
+    color: #898989;
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.text h3{
+    color: #143251;
+    font-weight: bold;
+}
+
+.text h2{
+    font-size: 20px;
+}
+
+
+.get-in-touch{
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgb(102, 202, 44); */
+}
+
+.get-in-touch span{
+    color: #d9a200;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.get-in-touch i{
+    /* background-color: red; */
+    color: #D8DEE3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.get-in-touch-list{
+    display: flex;
+    /* background-color: red; */
+    gap: 6px;
+    height: 40px;
+    align-items: center;
+    margin-top: 2px;   
+}
+.quick-links {
+    list-style: none; /* Remove os marcadores padrão */
+    padding: 0;
+}
+  
+.quick-links li {
+    margin-bottom: 8px;
+}
+  
+.quick-links li::before {
+    content: "❯"; /* Adiciona a seta ícone da seta*/
+    margin-right: 8px;
+    color: white;
+}
+
+.popular-links {
+    list-style: none; /* Remove os marcadores padrão */
+    padding: 0;
+}
+  
+.popular-links li {
+    margin-bottom: 8px;
+}
+  
+.popular-links li::before {
+    content: "❯"; /* Adiciona a seta ícone da seta*/
+    margin-right: 8px;
+    color: white;
+}
+
+.quick-links-box{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    gap: 180px;
+    /* background-color: rgba(255, 68, 0, 0.918); */
+}
+
+.quick-links-box a{
+    text-decoration: none;
+    color: #D8DEE3;
+}
+
+aside{
+    background-color: #0C2B4B;
+    color: #D8DEE3;
+    display: flex;
+    padding: 45px;
+    justify-content: space-around;
+}
+
+/* Os códigos abaixo são referentes ao form da Newsletter. Retirados do ChatGPT*/
+
+/* Estiliza o container */
+.newsletter {
+    background-color: #0C2B4B; /* Azul escuro */
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px; /* Ajuste conforme necessário */
+}
+  
+  /* Estiliza o título */
+.newsletter h4 {
+    color: #D8DEE3;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.newsletter h5{
+    color: #D8DEE3;
+    padding-top: 15px;
+    font-size: 15px;
+}
+  
+/* Formulário flexível */
+.newsletter-form {
+    display: flex;
+    overflow: hidden; /* Para garantir que os cantos fiquem alinhados */
+}
+  
+/* Input de e-mail */
+.newsletter-form input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    font-size: 14px;
+}
+  
+  /* Botão de inscrição */
+.newsletter-form button {
+    background-color: #f1b600; /* Amarelo */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+  
+/* Efeito ao passar o mouse */
+.newsletter-form button:hover {
+    background-color: #d9a200;
+}
+  
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #092139;
+    color: #D8DEE3;
+}
+
+.your-site-name{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+
+.your-site-name i{
+    display: flex;
+    color: #898989;
+    align-items: center;
+}
+
+.your-site-name span{
+    color: #d9a200;
+    font-weight: bold;
+}
+
+.author{
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    font-size: 12px;
+}
+
+.author span{
+    color: #d9a200;
+    font-weight: bold;
+}
+
+.follow-us{
+    /* background-color: blue; */
+    border: #898989;
+    padding: 10px;
+}
+
+.follow-us i{
+    color: #D8DEE3;
+    font-size: 25px;
+}
